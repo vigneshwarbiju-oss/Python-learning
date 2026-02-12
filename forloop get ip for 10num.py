@@ -1,3 +1,11 @@
-a=[1,2,3,4,5,6,7,8,9,10]
+a=[]
+print("Enter 5 numbers:")
+for i in range(5):
+    num=int(input (f"Enter number {i+1}: "))
+    a.append(num)
+print(a)
+
+sum=0
 for i in a:
-    print(i)
+    sum=sum+i
+print("The sum of the numbers is:",sum)
