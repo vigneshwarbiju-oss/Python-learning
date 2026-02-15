@@ -1,7 +1,7 @@
 b=[]
 print("Enter 5 numbers:")
 for i in range(5):
-    num=int(input (f"Enter number {i+1}: "))
+    num=int(input ("Enter number "+ str (i+1)+" :"))
     b.append(num)
 print(b)
 
