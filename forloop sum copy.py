@@ -1,5 +1,5 @@
 a = []
-for i in range(1,5):
+for i in range(1,8):
     a.append(i)
 
 print("First", "natural numbers:", a)
