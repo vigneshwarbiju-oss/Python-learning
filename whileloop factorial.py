@@ -1,6 +1,6 @@
-i=4
-fact=1
+i=5
+b=1
 while(i>0):
-    fact=fact*i
+    b=b*i
     i=i-1
-print(fact)
+print(b)
