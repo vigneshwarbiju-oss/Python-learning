@@ -23,3 +23,4 @@ def div():
     print(a/b)
 
 div()
+mul()
