@@ -12,8 +12,8 @@ suresh = goa()
 ramesh.name = "Ramesh"
 suresh.name = "suresh"
 
-ramesh.drink = "Yes"
-suresh.drink = "No"
+ramesh.drink = "Yes, he drinks"
+suresh.drink = "No, didn't"
 
 print(ramesh.name)
 print(ramesh.drink)
