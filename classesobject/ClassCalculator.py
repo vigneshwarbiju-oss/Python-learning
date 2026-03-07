@@ -11,7 +11,7 @@ class calculator:
     def div(self):
         print("div", self.num1/self.num2)
 
-obj1=calculator(10,2)
+obj1=calculator(10,2)   
 obj1.add()
 obj1.sub()
 obj1.mul()
