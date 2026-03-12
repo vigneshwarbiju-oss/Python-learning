@@ -4,7 +4,7 @@ class person():
 
 class student(person):
     def __init__(self,name,grade):
-        super().__init__(name)
+        super().__init__(name)#this means parent class, now name biju will come here
         self.grade=grade
 
     def display(self):
